@@ -1,0 +1,30 @@
+{
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Gediminas Palšys"
+      }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.4",
+        "nyholm/psr7": "^1.4",
+        "nyholm/psr7-server": "^1.0",
+        "guzzlehttp/psr7": "^2.0",
+        "http-interop/http-factory-guzzle": "^1.1",
+        "php-di/php-di": "^6.3",
+        "vlucas/phpdotenv": "^5.3",
+        "monolog/monolog": "^2.3",
+        "slim/twig-view": "^3.2",
+        "laminas/laminas-diactoros": "^3.3"
+    }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/"
+      }
+    }
+}
